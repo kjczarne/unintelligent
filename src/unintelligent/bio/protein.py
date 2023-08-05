@@ -1,0 +1,23 @@
+aa_identifier_map = {
+    "A": "Ala",
+    "C": "Cys",
+    "D": "Asp",
+    "E": "Glu",
+    "F": "Phe",
+    "G": "Gly",
+    "H": "His",
+    "I": "Ile",
+    "K": "Lys",
+    "L": "Leu",
+    "M": "Met",
+    "N": "Asp",
+    "P": "Pro",
+    "Q": "Gln",
+    "R": "Arg",
+    "S": "Ser",
+    "T": "Thr",
+    "V": "Val",
+    "W": "Trp",
+    "Y": "Tyr",
+    "*": "*"
+}
