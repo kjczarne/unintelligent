@@ -1,0 +1,6 @@
+# Useless stuff:
+.DS_Store
+
+# Python:
+__pycache__
+.egg-*
