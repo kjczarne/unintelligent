@@ -639,6 +639,17 @@ tomli = ">=1.2.2"
 poetry-plugin = ["poetry (>=1.0,<2.0)"]
 
 [[package]]
+name = "prettyprint"
+version = "0.1.5"
+description = "prettyprint print list/dict/tuple object prettily"
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "prettyprint-0.1.5.tar.gz", hash = "sha256:7423210b62adfb3777677914cd25db4919f1c2b0afba0454365ffbfa3f7e3731"},
+]
+
+[[package]]
 name = "pygments"
 version = "2.15.1"
 description = "Pygments is a syntax highlighting package written in Python."
@@ -1100,4 +1111,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "3.10"
-content-hash = "1ef0b98beab4d699b01e700a6896bc147132700ddbe5e4760b7e35954bcf8314"
+content-hash = "806e345d88b03e9b9c9cb186555603482a4e9c49ced1645a4e26a4a1f0397810"
