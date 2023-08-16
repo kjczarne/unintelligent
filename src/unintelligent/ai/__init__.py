@@ -6,3 +6,4 @@ from . import types
 from . import metrics
 from . import pytorch
 from . import transformers
+from . import cnns
