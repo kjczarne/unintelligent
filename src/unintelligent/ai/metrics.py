@@ -1,5 +1,10 @@
 """This module contains metrics and functions making it easier to work with metrics
 in the context of training and testing AI models.
+
+Variables:
+
+    `acc_precision_recall_metrics`: A list of default accuracy, precision and recall scores
+                                    taken directly from the `sklearn` package.
 """
 
 from typing import Dict
@@ -10,9 +15,6 @@ from .types import ListOrNpArrayOfNumbers
 acc_precision_recall_metrics = [
     accuracy_score, precision_score, recall_score
 ]
-acc_precision_recall_metrics.__doc__ = """A list of default accuracy, precision and recall scores
-taken directly from the `sklearn` package.
-"""
 
 
 def dict_average(dict_of_metrics: Dict[str, ListOrNpArrayOfNumbers]) -> Dict[str, np.ndarray]:
