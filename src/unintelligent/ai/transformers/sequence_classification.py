@@ -291,7 +291,7 @@ def monte_carlo_train_and_test_pipeline(tokenizer: Tokenizer,
                        device)
 
 
-def train_from_scratch(tokenized_train_dataset: Iterable[List[int], int],
+def train_from_scratch(tokenized_train_dataset: Iterable[Tuple[List[int], int]],
                        model: nn.Module,
                        epochs: int = 3,
                        device: str = "cuda"):
