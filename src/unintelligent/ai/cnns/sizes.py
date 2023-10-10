@@ -17,4 +17,4 @@ def conv_output_size(input_size: int,
         int: output size after applying the convolution
     """
 
-    return ((input_size - kernel_size + 2 * padding_size) / stride) + 1
+    return (((input_size - kernel_size) + 2 * padding_size) // stride) + 1
